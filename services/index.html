@@ -4,12 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Our Services</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="icon" type="image/x-icon" href="../img/favicon-icon.png" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="../shared.css" />
+		<title>·Our Services·</title>
 	</head>
 	<body>
+		<!-- header -->
 		<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
 			<div class="container">
-				<a href="../index.html" class="navbar-brand">RAPID</a>
+				<a href="../index.html" class="navbar-brand main-header__brand">
+					<img src="../img/RAP-D.png" alt="RAP!D" />
+				</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -41,29 +64,43 @@
 				</div>
 			</div>
 		</nav>
+		<!-- content -->
+		<section class="text-dark p-5 text-center text-sm-start">
+			<div class="container">
+				<div class="d-flex align-items-center justify-content-between">
+					<div>
+						<h1>What’s your Moment of <span class="text-danger">Service</span>?</h1>
+						<p class="lead my-4">
+							Be your best when it matters most to your customers – in the moment of
+							service. Thousands of the world’s best-known companies are using IFS
+							software in the cloud to effectively manage their customers, people and
+							assets.
+						</p>
+					</div>
+					<img
+						class="img-fluid w-80 ml-2 d-none d-sm-block"
+						src="../img/developer-gif-1.gif	"
+						alt=""
+					/>
+				</div>
+			</div>
+		</section>
+		<!-- footer -->
 		<footer class="main-footer text-center text-white">
 			<div class="container pt-4">
-				<section class="mb-4 social-menu">
+				<section class="mb-4 social-menu hstack">
 					<a
 						class="btn btn-link btn-floating btn-lg text-dark m-1"
 						id="facebook"
-						href="#!"
+						href="#"
 						role="button"
 						data-mdb-ripple-color="dark"
 						><i class="fa-brands fa-facebook-f"></i
 					></a>
 					<a
 						class="btn btn-link btn-floating btn-lg text-dark m-1"
-						id="twitter"
-						href="#!"
-						role="button"
-						data-mdb-ripple-color="dark"
-						><i class="fa-brands fa-twitter"></i
-					></a>
-					<a
-						class="btn btn-link btn-floating btn-lg text-dark m-1"
 						id="whatsapp"
-						href="#!"
+						href="#"
 						role="button"
 						data-mdb-ripple-color="dark"
 						><i class="fa-brands fa-whatsapp"></i
@@ -71,15 +108,23 @@
 					<a
 						class="btn btn-link btn-floating btn-lg text-dark m-1"
 						id="instagram"
-						href="#!"
-						role="button"
+						href="#"
+						type="button"
 						data-mdb-ripple-color="dark"
 						><i class="fa-brands fa-instagram"></i
 					></a>
 					<a
 						class="btn btn-link btn-floating btn-lg text-dark m-1"
+						id="twitter"
+						href="#"
+						role="button"
+						data-mdb-ripple-color="dark"
+						><i class="fa-brands fa-twitter"></i
+					></a>
+					<a
+						class="btn btn-link btn-floating btn-lg text-dark m-1"
 						id="linkedin"
-						href="#!"
+						href="#"
 						role="button"
 						data-mdb-ripple-color="dark"
 						><i class="fa-brands fa-linkedin"></i
@@ -87,16 +132,18 @@
 					<a
 						class="btn btn-link btn-floating btn-lg text-dark m-1"
 						id="github"
-						href="#!"
+						href="#"
 						role="button"
 						data-mdb-ripple-color="dark"
 						><i class="fa-brands fa-github"></i
 					></a>
+					<div class="vr" style="height: 10px"></div>
 				</section>
 			</div>
-			<div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-				© 2020 Copyright:
-				<a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+
+			<div class="text-center text-light p-3 bg-dark">
+				© 2020 Copyright :
+				<a class="text-light" href="#">RAP-devs.com</a>
 			</div>
 		</footer>
 	</body>
