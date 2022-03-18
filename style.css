@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+.fa-brands:hover {
+    color: #fff;
+}
+#facebook:hover {
+    background-color: #1877F2;
+}
+#twitter:hover {
+    background-color: #1877F2;
+}
+#whatsapp:hover {
+    background-color: #25D366;
+}
+#instagram:hover {
+    background-color: #E4405F;
+}
+#linkedin:hover {
+    background-color: #0A66C2;
+}
+#github:hover {
+    background-color: #4A4C50;
+}
